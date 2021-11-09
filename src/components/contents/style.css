@@ -1,0 +1,64 @@
+.content {
+    border-top: 1px solid #e5e5e5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.head {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+
+}
+.userContent {
+    display: flex;
+    align-items: center;
+}
+
+.head p {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.icon {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.realCaption {
+    padding:0px 3px;
+}
+
+.contentImage {
+
+    width: 100%;
+    height: 100%;
+    
+}
+.caption {
+    padding: 2px;
+}
+.caption> p:nth-child(1) ,p:nth-child(2) {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+}
+.caption> p:nth-child(3)  {
+    font-size: 12px;
+    margin: 2px;
+}
+.imageUser{
+    width: 30px;
+    height: 30px;
+}

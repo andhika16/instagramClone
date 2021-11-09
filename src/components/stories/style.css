@@ -1,0 +1,37 @@
+
+.stories {
+    padding-top: 60px;
+    max-width: 100%;
+    height: 100%;
+    margin: 5px 0px;
+    display: flex;
+    flex: wrap;
+    background-color: #fff;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+}
+
+.stories::-webkit-scrollbar {
+  display: none;
+}
+
+.round {
+    border-radius: 100%;
+    max-width: 60px;
+    max-height: 60px;
+    margin: 0px 5px;
+    border: 1px black solid;
+}
+.stories p{
+    margin: 5px 10px;
+    padding: 0px;
+    font-size: 11px;
+    font-weight: lighter;
+    color: #000;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}

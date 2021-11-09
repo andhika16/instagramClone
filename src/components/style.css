@@ -1,0 +1,7 @@
+.app {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #fff;
+}
