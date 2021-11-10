@@ -1,11 +1,9 @@
-import { h } from 'preact';
-import style from './style.css';
-const singleStory = ({img,userStory}) => (
-    <div >
-        <div class={style.round}>
-            <img class={style.img} src={img} alt="" />
-            <p className="user-name">{ userStory }</p>
-        </div>
+const singleStory = ({ img, userStory }) => (
+	<div>
+		<div class="w-20 mx-2 flex justify-center items-center flex-col">
+			<img class="w-full h-full" src={img} alt="" />
+			<p class="text-xs">{userStory}</p>
+		</div>
 	</div>
 );
 

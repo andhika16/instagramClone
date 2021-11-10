@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import style from './style.css';
+import style from  './style.css';
 import SingleStory from './singleStory';
 
 const data = [
@@ -79,34 +79,12 @@ const data = [
 
 
 const Stories = () => (
-    <div class={style.stories}>
+    <div id={style.stories} class="w-3xl flex overflow-x-auto border-b pb-4">
         {data.map((item, index) => (
             <SingleStory key={index} img={item.img} userStory={item.userStory} />
         ))}
 
-        {/* <SingleStory img="../../assets/icons/android-chrome-192x192.png" userStory={"andhika"} />
-        <SingleStory img="../../assets/icons/android-chrome-192x192.png" userStory={"andhika"} />
-        <SingleStory img="../../assets/icons/android-chrome-192x192.png" userStory={"andhika"} /> */}
 	</div>
 );
-
- {/* <div class={style.round}>
-            <img class={style.img} src="../../assets/icons/android-chrome-192x192.png" alt="" />
-        </div>
-        <div class={style.round}>
-            <img class={style.img} src="../../assets/icons/android-chrome-192x192.png" alt="" />
-        </div>
-        <div class={style.round}>
-            <img class={style.img} src="../../assets/icons/android-chrome-192x192.png" alt="" />
-        </div>
-        <div class={style.round}>
-            <img class={style.img} src="../../assets/icons/android-chrome-192x192.png" alt="" />
-        </div>
-        <div class={style.round}>
-            <img class={style.img} src="../../assets/icons/android-chrome-192x192.png" alt="" />
-        </div>
-        <div class={style.round}>
-            <img class={style.img} src="../../assets/icons/android-chrome-192x192.png" alt="" />
-        </div> */}
 
 export default Stories;
