@@ -33,16 +33,16 @@ const optionsMenu = ({ showMsg }) => (
 		<div
 			class={
 				showMsg
-					? "absolute bg-white w-full h-full top-0 -right-0 p-5  "
-					: "absolute bg-white w-full h-full top-0 -right-full p-5  "
+					? "absolute bg-white w-full h-full top-0 -right-0 p-5"
+					: "absolute bg-white w-full h-full top-0 -right-full p-5"
 			}
 		>
 			<div class="border rounded p-2">
 				<p>search</p>
 			</div>
-			<div class="flex justify-between  my-5">
+			<div class="flex justify-between text-sm my-5">
 				<p class="font-bold">Messages</p>
-				<p class="text-blue-600">Request</p>
+				<p class="text-blue-600 font-bold">Request</p>
 			</div>
 			<div class="flex-col">
 				{data.map((item, index) => (

@@ -1,0 +1,4 @@
+create search menu
+buat header di setiap menu
+jika menu atau router punya komponen, komponen harus di pindah ke folder komponen
+membuat history

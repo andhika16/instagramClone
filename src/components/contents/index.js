@@ -8,10 +8,10 @@ const Content = ({ username }) => {
 			<div class="py-2 items-center">
 				<div class="flex items-center mb-2 justify-between">
 					<div class=" flex items-center">
-						<div class=" rounded w-10">
+						<div class="rounded-full w-10 h-10 overflow-hidden">
 							<img
 								class="w-full"
-								src="../../assets/icons/android-chrome-192x192.png"
+								src={`https://picsum.photos/200?random=${Math.random()}`}
 								alt=""
 							/>
 						</div>
@@ -26,8 +26,8 @@ const Content = ({ username }) => {
 				<div>
 					<div class="w-full">
 						<img
-							class="w-full"
-							src="../../assets/img/contoh.jpg"
+							class="w-full h-full"
+							src={`https://picsum.photos/200?random=${Math.random()}`}
 							alt=""
 						/>
 					</div>
@@ -60,9 +60,9 @@ const Content = ({ username }) => {
 					<div class="font-bold text-sm mx-2">
 						<p>2213,12 likes</p>
 					</div>
-					<div class="mx-2 text-justify">
-						<p>
-							<strong class="mr-2">{username}</strong>
+					<div class="mx-2 whitespace-pre-wrap">
+						<p class="text-sm ">
+							<strong class="mr-2 ">{username}</strong>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
 							Sunt distinctio neque alias, aliquam quibusdam illo tempora
 							quo porro laboriosam esse quisquam iste reiciendis!

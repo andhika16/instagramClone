@@ -10,7 +10,7 @@ const Header = ({ setShowMsg, changeIcon }) => {
 	};
 
 	return (
-		<header class="sticky top-0 bg-white shadow-sm z-50 px-2 ">
+		<header class="sticky top-0 bg-white shadow-sm z-20 px-2 ">
 			<div class="flex justify-between items-center">
 				<div class="w-8">
 					<button onClick={() => unShowMessage()}>
