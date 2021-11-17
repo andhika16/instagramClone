@@ -3,34 +3,11 @@ import Content from "../../components/contents";
 import Stories from "../../components/stories";
 import Message from "../../components/message";
 
-const data = [
-	{
-		id: 1,
-		username: "johndoe",
-	},
-	{
-		id: 2,
-		username: "johndoe",
-	},
-	{
-		id: 3,
-		username: "johndoe",
-	},
-	{
-		id: 4,
-		username: "johndoe",
-	},
-	{
-		id: 5,
-		username: "johndoe",
-	},
-];
-
-const Home = ({ showMessage }) => {
+const Home = ({ showMessage, userData, setShowStory }) => {
 	return (
 		<div>
-			<Stories />
-			{data.map((item) => (
+			<Stories dataStories={userData} setShowStory={setShowStory} />
+			{userData.map((item) => (
 				<Content key={item.id} username={item.username} />
 			))}
 			<Content />

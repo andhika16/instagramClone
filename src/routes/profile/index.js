@@ -6,7 +6,7 @@ const Profile = () => {
 		arr.push(i);
 	}
 	return (
-		<div class="pt-5">
+		<div class="p-1">
 			<div class="flex text-xs">
 				<div class="mx-2">
 					<div class="w-20 rounded-full border overflow-hidden mb-2">
@@ -16,7 +16,7 @@ const Profile = () => {
 						/>
 					</div>
 				</div>
-				<div class="flex justify-around w-full text-center">
+				<div class="flex justify-around w-full text-center items-center">
 					<div>
 						<p class="font-bold">10</p>
 						<p>Posts</p>
@@ -40,19 +40,19 @@ const Profile = () => {
 					<p>Edit Profile</p>
 				</div>
 			</div>
-			<div class="w-full flex justify-between border-b-2">
-				<div class="w-10">
-					<img src="../../assets/instagramIcon/camera.png" alt="" />
+			<div class="w-full flex justify-between">
+				<div class="w-7">
+					<img src="../../assets/instagramIcon/grid.png" alt="" />
 				</div>
-				<div class="w-10">
-					<img src="../../assets/instagramIcon/camera.png" alt="" />
+				<div class="w-8">
+					<img src="../../assets/instagramIcon/igtv.png" alt="" />
 				</div>
-				<div class="w-10">
-					<img src="../../assets/instagramIcon/camera.png" alt="" />
+				<div class="w-8">
+					<img src="../../assets/instagramIcon/tag.png" alt="" />
 				</div>
 			</div>
 
-			<div class="flex flex-wrap justify-center items-center w-full">
+			<div class="flex flex-wrap items-center">
 				{arr.map((item, index) => (
 					<ProfilePhotos key={index} />
 				))}

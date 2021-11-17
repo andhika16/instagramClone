@@ -8,7 +8,7 @@ const Content = ({ username }) => {
 			<div class="py-2 items-center">
 				<div class="flex items-center mb-2 justify-between">
 					<div class=" flex items-center">
-						<div class="rounded-full w-10 h-10 overflow-hidden">
+						<div class="rounded-full w-10 h-10 overflow-hidden ml-1">
 							<img
 								class="w-full"
 								src={`https://picsum.photos/200?random=${Math.random()}`}
@@ -27,7 +27,7 @@ const Content = ({ username }) => {
 					<div class="w-full">
 						<img
 							class="w-full h-full"
-							src={`https://picsum.photos/200?random=${Math.random()}`}
+							src={`https://source.unsplash.com/collection/1346951/800x800?sig=${Math.random()}`}
 							alt=""
 						/>
 					</div>
